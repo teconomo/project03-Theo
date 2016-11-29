@@ -1,1 +1,5 @@
-var phrase = document.getElementById("input").value;
+function googleTranslateElementInit() {
+new google.translate.TranslateElement({pageLanguage: 'es'}, 'translator');
+}
+
+googleTranslateElementInit();
