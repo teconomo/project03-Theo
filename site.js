@@ -1,17 +1,14 @@
 $(document).ready(function() {
-  
-  $('#translate-form').on('submit', function(event) {
-    alert('Submit Successful!');
-
-    var text = document.getElementById("text").innerHTML;
-    google.language.translate(text, 'es', 'en', function(result) {
-        var translated = document.getElementById("translation");
-        if (result.translation) {
-            translated.innerHTML = result.translation;
-        }
-    });
-
+   $('#translate-form').on('submit', function(event) {
+    var query = $('#string').val();
+    $.get(
+'https://dictionary.yandex.net/api/v1/dicservice.json/lookup?key=dict.1.1.20161207T050539Z.4477287c82f93220.0ffafbf07a34f70b5034bdfee30d4d7d1ae5f35f&lang=en-en&text=' + query,
+      function(data) {
+        var definition = data[];
+        $('#word').html('Word: ' + query);
+        $('#definition').html('Definition: ' + definition.push(data[0]));
+      });
     event.preventDefault();
-  });
-
 });
+
+}); 
