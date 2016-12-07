@@ -1,5 +1,5 @@
-function googleTranslateElementInit() {
-new google.translate.TranslateElement({pageLanguage: 'es'}, 'translator');
+function googleTranslateEage: 'eslementInit() {
+new google.translate.TranslateElement({pageLangu'}, 'translator');
 }
 
 googleTranslateElementInit();
