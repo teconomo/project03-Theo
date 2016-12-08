@@ -8,8 +8,6 @@
   <meta name="description" content="Summoner Look-Up" />
   <meta name="author" content="Kenneth Ellorando, Bobby Ton, Theo Economos" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-
-  <link href="stylesheet.css" type="text/css" rel="stylesheet" media="screen" />
 </head>
 
 <body>
@@ -18,17 +16,10 @@
 
   <h1>Summoner-Lookup</h1>
 
-  <div id="summoner-domain">
-
-    <form id="summoner-form" name="summoner-form" method="get" action="#null">
-      <label for="sumLabel">Summoner Name: </label>
-      <input type="text" id="name" name="name"/>
-      <input type="submit" id="form-submit" name="form-submit" value="Search"/>
-    </form>
-
-    <p id="summoner-name"></p>
-    <p id="summoner-level"></p>
-
+  <div id = "summoner-form">
+    <input id="userName" />
+    <input type="submit" onclick="summonerLookUp();" />
+    <p id="sLevel"></p>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
