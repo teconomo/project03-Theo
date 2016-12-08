@@ -21,7 +21,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* (BASE= 1.125em = 18px) */
 
 html {
-  font-family: "MedievalSharp" , cursive;
+  font-family: " MedievalSharp " , cursive;
   color: #B22222;
   background-color: #2F4F4F;
   font-size: 1.125em;
@@ -54,7 +54,7 @@ footer {
 /* -- SUBMIT BUTTON -- */
 
 #submit {
-  font-family: "MedievalSharp" , cursive;
+  font-family: " MedievalSharp " , cursive;
   background-color: white;
   border: 0.262em solid #00BFFF; /* 0.295em @ 16 */
   color: black;
@@ -62,7 +62,7 @@ footer {
 }
 
 #submit:hover {
-  font-family: "MedievalSharp" , cursive;
+  font-family: " MedievalSharp " , cursive;
   background-color: #00BFFF;
   border: 0.262em solid #00BFFF; /* 0.295em @ 16 */
   color: white;
@@ -71,7 +71,7 @@ footer {
 /* -- INPUT BOX -- */
 
 #userName {
-  font-family: "MedievalSharp" , cursive;
+  font-family: " MedievalSharp " , cursive;
   color: #B22222;
   border-style: ridge;
   border-width: 0.41em; /* 0.461em @ 16 */
