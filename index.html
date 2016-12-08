@@ -3,37 +3,25 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Translator</title>
+  <title>Summoner Look-Up</title>
 
-  <meta name="description" content="DESCRIPTION OF PAGE HERE" />
+  <meta name="description" content="Summoner Look-Up" />
   <meta name="author" content="Kenneth Ellorando, Bobby Ton, Theo Economos" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-
-  <link href="stylesheet.css" type="text/css" rel="stylesheet" media="screen" />
 </head>
 
 <body>
   <header>
   </header>
 
-  <h1>Brosetta Translator</h1>
+  <h1>Summoner-Lookup</h1>
 
-  <div id="translator">
-
-    <form id="dictionary-form" name="dictionary-form" method="get" action="#null">
-      <label for="string">Text to translate:</label>
-      <input type="text" id="string" name="string"/>
-      <input type="submit" id="form-submit" name="form-submit" value="Define!"/>
-    </form>
-
-    <p id="word"></p>
-    <p id="definition"></p>
-
+  <div id = "summoner-form">
+    <input id="userName" />
+    <input type="submit" onclick="summonerLookUp();" />
+    <p id="sLevel"></p>
   </div>
 
-  <footer>
-    <p>Powered by Google Translate</p>
-  </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="site.js"></script>
 </body>
